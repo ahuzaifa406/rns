@@ -55,8 +55,8 @@ for (const file of [
   loadEnvFile(file)
 }
 
-const PORT = Number(process.env.PORT || 3000)
-const HOST = process.env.HOST || '127.0.0.1'
+const PORT = Number(process.env.PORT || 3000);
+const HOST = "0.0.0.0";
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
